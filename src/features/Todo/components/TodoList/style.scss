@@ -1,0 +1,10 @@
+.todoList {
+  list-style-type: none;
+  & > li {
+    cursor: pointer;
+  }
+  & > li.completed {
+    color: darkgray;
+    text-decoration: line-through;
+  }
+}
